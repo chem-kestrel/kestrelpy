@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Kestrel
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: George
+    family-names: Nunn
+    affiliation: University of York
+  - given-names: Benjamin Samuel
+    family-names: Grace
+    affiliation: University of York
+  - given-names: Paul Howard
+    family-names: Walton
+    affiliation: University of York
+  - given-names: Martin Alexander
+    family-names: Bates
+    affiliation: University of York
+repository-code: 'https://github.com/chem-kestrel/Kestrelpy'
+license: MIT
