@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "kestrelpy"
+version = "1.0.0"
+description = ""
+authors = ["George Nunn <georgenunn97@gmail.com>", "Benjamin Grace <bensamgrace@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+include = [
+    "src/kestrelpy/calculations/many_electron_matrix_elements/*.npz"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scipy = "^1.15"
+tabulate = "^0.9.0"
+pyyaml = "^6.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pre-commit = "^3.8.0"
+pytest-benchmark = "^4.0.0"
+types-tabulate = "^0.9.0.20241207"
+
+[tool.pytest.ini_options]
+addopts = "--benchmark-skip"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+kes = "kestrelpy.cli:main"

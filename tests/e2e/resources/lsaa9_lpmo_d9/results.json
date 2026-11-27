@@ -1,0 +1,741 @@
+{
+  "eigenfunctions": [
+    {
+      "index": 0,
+      "energy": 0.0,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": [
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "contribution": 0.996,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.002,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.001,
+          "spin_multiplicity": 2
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "energy": 0.0,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": [
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "contribution": 0.996,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.002,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.001,
+          "spin_multiplicity": 2
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "energy": 12971.2,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": [
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.921,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.052,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.021,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.005,
+          "spin_multiplicity": 2
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "energy": 12971.2,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": [
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.921,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.052,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.021,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.005,
+          "spin_multiplicity": 2
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "energy": 15194.6,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": [
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.615,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.239,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.124,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.021,
+          "spin_multiplicity": 2
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "energy": 15194.6,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": [
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.615,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.239,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.124,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.021,
+          "spin_multiplicity": 2
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "energy": 16418.9,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": [
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.684,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.282,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.017,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.014,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "contribution": 0.003,
+          "spin_multiplicity": 2
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "energy": 16418.9,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": [
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.684,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.282,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.017,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.014,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "contribution": 0.003,
+          "spin_multiplicity": 2
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "energy": 17395.4,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": [
+        {
+          "occupation": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.839,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.07,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.049,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.041,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "contribution": 0.001,
+          "spin_multiplicity": 2
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "energy": 17395.4,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": [
+        {
+          "occupation": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.839,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.07,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.049,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            4,
+            4
+          ],
+          "contribution": 0.041,
+          "spin_multiplicity": 2
+        },
+        {
+          "occupation": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "contribution": 0.001,
+          "spin_multiplicity": 2
+        }
+      ]
+    }
+  ],
+  "epr": [
+    {
+      "start_index": 0,
+      "final_index": 1,
+      "g_factors": [
+        2.051,
+        2.075,
+        2.276
+      ],
+      "fermi": [
+        -233.6,
+        -233.6,
+        -233.6
+      ]
+    }
+  ],
+  "susceptibilities": []
+}

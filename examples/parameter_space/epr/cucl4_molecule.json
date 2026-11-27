@@ -1,0 +1,133 @@
+{
+  "molecular_geometry": {
+    "file_name": "cucl4.xyz",
+    "xyz_text": "Cu 0.0 0.0 0.0\nCl 2.0 0.0 0.0\nCl 0.0 2.0 0.0\nCl -2.0 0.0 0.0\nCl 0.0 -2.0 0.0\n",
+    "atoms": [
+      {
+        "index": 0,
+        "element": "Cu",
+        "coordinates": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "index": 1,
+        "element": "Cl",
+        "coordinates": [
+          2.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "index": 2,
+        "element": "Cl",
+        "coordinates": [
+          0.0,
+          2.0,
+          0.0
+        ]
+      },
+      {
+        "index": 3,
+        "element": "Cl",
+        "coordinates": [
+          -2.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "index": 4,
+        "element": "Cl",
+        "coordinates": [
+          0.0,
+          -2.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "metal": {
+    "index": 0,
+    "element": "Cu",
+    "coordinates": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "ligands": [
+    {
+      "name": "Cl",
+      "atoms": [
+        {
+          "theta": 90.0,
+          "phi": 0.0,
+          "psi": 0.0,
+          "coordinating_atom": {
+            "index": 1,
+            "element": "Cl",
+            "coordinates": [
+              2.0,
+              0.0,
+              0.0
+            ]
+          },
+          "local_x_orientation": null,
+          "name": ""
+        },
+        {
+          "theta": 90.0,
+          "phi": 90.0,
+          "psi": 0.0,
+          "coordinating_atom": {
+            "index": 2,
+            "element": "Cl",
+            "coordinates": [
+              0.0,
+              2.0,
+              0.0
+            ]
+          },
+          "local_x_orientation": null,
+          "name": ""
+        },
+        {
+          "theta": 90.0,
+          "phi": 180.0,
+          "psi": 0.0,
+          "coordinating_atom": {
+            "index": 3,
+            "element": "Cl",
+            "coordinates": [
+              -2.0,
+              0.0,
+              0.0
+            ]
+          },
+          "local_x_orientation": null,
+          "name": ""
+        },
+        {
+          "theta": 90.0,
+          "phi": -90.0,
+          "psi": 0.0,
+          "coordinating_atom": {
+            "index": 4,
+            "element": "Cl",
+            "coordinates": [
+              0.0,
+              -2.0,
+              0.0
+            ]
+          },
+          "local_x_orientation": null,
+          "name": ""
+        }
+      ]
+    }
+  ]
+}

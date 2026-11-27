@@ -1,0 +1,195 @@
+
+                                         KESTREL
+                                A ligand-field program for
+                              3d transition-metal complexes
+
+                   ----------------------------------------------------
+                   |        Version: 1.0.0, Copyright (c) 2026        |
+                   | Department of Chemistry, University of York (UK) |
+                   ----------------------------------------------------
+
+    References:
+        1.  Nunn, George (2023) Development of a contemporary ligand-field
+            program for 3d transition-metal complexes. PhD thesis,
+            University of York.
+        2.  P. Comba, G. Nunn, F. Scherz and P. H. Walton, Faraday Discuss., 2021, 234, 232-244.
+        3.  S. Mace, B. S. Grace, A. Goodfellow, M. A. Bates, M. A. Halcrow, P. H .Walton,
+            Y. Xu and B. N. Nguyen, Inorg. Chem. Front., 2026, 13 (17), 7301-7315.
+
+
+    Contributors:
+        - George Nunn: Former PhD student in the PHW group.
+        - Ben Grace: PhD student in the PHW group.
+        - Martin Bates: PhD project supervisor.
+        - Paul Walton: PhD project supervisor.
+
+
+                                   *** OPTIMISATION ***
+
+=========================================================================================
+                                     INPUT
+=========================================================================================
+Input ligand-field matrix to fit:
+---------------------------------
+   <Di|V|Dj>         DXY           DYZ           DZ2           DXZ          DX2Y2
+---------------  ------------  ------------  ------------  ------------  ------------
+      DXY         -1208224.6      -174.0        402.1         247.6         -557.0
+      DYZ           -174.0      -1209204.5      -938.0        294.1         -873.5
+      DZ2           402.1         -938.0      -1209303.1      523.4         521.0
+      DXZ           247.6         294.1         523.4       -1207918.9      -338.6
+     DX2Y2          -557.0        -873.5        521.0         -338.6      -1209817.3
+
+LigandOptimisation:
+-------------------
+Field    Value
+-------  ---------------------------------------------------------------------------------------------------------------------------------
+name     Cl
+esigma   Bound(lower_bound=0.0, upper_bound=10000.0, starting_value=0.0)
+epix     Bound(lower_bound=0.0, upper_bound=10000.0, starting_value=0.0)
+epiy     Link(object_reference='ligand.Cl.epix', link_type=<LinkType.LINEAR: 'linear'>, link_arguments={'gradient': 1.0, 'constant': 0.0})
+edxy     Fixed(value=0.0)
+edx2y2   Fixed(value=0.0)
+eds      Fixed(value=0.0)
+
+=========================================================================================
+                                    MOLECULE
+=========================================================================================
+Atoms (XYZ format):
+```
+Cl      -1.230261000      0.394044000     -1.916095000
+    Cl       0.883919000      1.917680000      0.857057000
+    Cl       1.589922000     -1.461247000     -0.611403000
+    Cl      -1.421183000     -0.824209000      1.623496000
+    Co       0.000000000      0.000000000      0.000000000
+```
+
+Parsed Atoms:
+------------------------------------------------------------
+  Index   Element            X            Y            Z
+------------------------------------------------------------
+      0   Cl          -1.23026      0.39404     -1.91610
+      1   Cl           0.88392      1.91768      0.85706
+      2   Cl           1.58992     -1.46125     -0.61140
+      3   Cl          -1.42118     -0.82421      1.62350
+      4   Co           0.00000      0.00000      0.00000
+------------------------------------------------------------
+Metal:
+- index:       4
+  element:     Co
+  coordinates: (0.0, 0.0, 0.0)
+
+Ligand `Cl`:
+- Assignment 0:
+  - theta:  146.0
+    phi:    162.2
+    psi:    0.0
+    coordinating_atom:
+    - index:       0
+      element:     Cl
+      coordinates: (-1.230261, 0.394044, -1.916095)
+    local_x_orientation: None
+    local_frame:
+       0.790, -0.305, -0.532
+      -0.253, -0.952,  0.171
+      -0.559, -0.000, -0.829
+- Assignment 1:
+  - theta:  67.9
+    phi:    65.3
+    psi:    0.0
+    coordinating_atom:
+    - index:       1
+      element:     Cl
+      coordinates: (0.883919, 1.91768, 0.857057)
+    local_x_orientation: None
+    local_frame:
+       0.157, -0.908,  0.388
+       0.342,  0.419,  0.842
+      -0.927,  0.000,  0.376
+- Assignment 2:
+  - theta:  105.8
+    phi:   -42.6
+    psi:    0.0
+    coordinating_atom:
+    - index:       2
+      element:     Cl
+      coordinates: (1.589922, -1.461247, -0.611403)
+    local_x_orientation: None
+    local_frame:
+      -0.201,  0.677,  0.708
+       0.184,  0.736, -0.651
+      -0.962,  0.000, -0.272
+- Assignment 3:
+  - theta:  45.3
+    phi:   -149.9
+    psi:    0.0
+    coordinating_atom:
+    - index:       3
+      element:     Cl
+      coordinates: (-1.421183, -0.824209, 1.623496)
+    local_x_orientation: None
+    local_frame:
+      -0.608,  0.502, -0.615
+      -0.353, -0.865, -0.357
+      -0.711,  0.000,  0.703
+
+
+=========================================================================================
+                        BEST-FIT PARAMETERS & LIGAND-FIELD
+=========================================================================================
+
+... Optimisation success?           True
+... Best fit root-mean-square:          57.997 cm-1
+
+*******************
+ Ligand Parameters
+*******************
+
+Parameters    0
+------------  ------------------
+name          Cl
+esigma        3337.78773931951
+epix          1048.5346492731123
+epiy          1048.5346492731123
+edxy          0.0
+edx2y2        0.0
+eds           0.0
+
+********************************
+ Ligand-field matrix comparison
+********************************
+
+<Di|V|Dj>                Calculated (cm-1)    Reference (cm-1)    Residual (cm-1)
+---------------------  -------------------  ------------------  -----------------
+<  DXY  | V |  DXY  >                567.7               669.1              101.4
+<  DXY  | V |  DYZ  >               -160.9              -174                -13.1
+<  DXY  | V |  DZ2  >                309.8               402.1               92.3
+<  DXY  | V |  DXZ  >                115.9               247.6              131.7
+<  DXY  | V | DX2Y2 >               -540.9              -557                -16.1
+<  DYZ  | V |  DYZ  >               -283.5              -310.8              -27.3
+<  DYZ  | V |  DZ2  >               -931.7              -938                 -6.3
+<  DYZ  | V |  DXZ  >                331.1               294.1              -37
+<  DYZ  | V | DX2Y2 >               -867.9              -873.5               -5.6
+<  DZ2  | V |  DZ2  >               -370.9              -409.4              -38.6
+<  DZ2  | V |  DXZ  >                525.4               523.4               -2
+<  DZ2  | V | DX2Y2 >                531.9               521                -10.9
+<  DXZ  | V |  DXZ  >               1058.3               974.8              -83.5
+<  DXZ  | V | DX2Y2 >               -310                -338.6              -28.6
+< DX2Y2 | V | DX2Y2 >               -971.5              -923.6               47.9
+
+Calculated 5x5 one-electron ligand-field matrix:
+   <Di|V|Dj>         DXY           DYZ           DZ2           DXZ          DX2Y2
+---------------  ------------  ------------  ------------  ------------  ------------
+      DXY           4915.6        -160.9        309.8         115.9         -540.9
+      DYZ           -160.9        4064.3        -931.7        331.1         -867.9
+      DZ2           309.8         -931.7        3977.0        525.4         531.9
+      DXZ           115.9         331.1         525.4         5406.1        -310.0
+     DX2Y2          -540.9        -867.9        531.9         -310.0        3376.4
+
+Reference 5x5 one-electron ligand-field matrix:
+   <Di|V|Dj>         DXY           DYZ           DZ2           DXZ          DX2Y2
+---------------  ------------  ------------  ------------  ------------  ------------
+      DXY         -1208224.6      -174.0        402.1         247.6         -557.0
+      DYZ           -174.0      -1209204.5      -938.0        294.1         -873.5
+      DZ2           402.1         -938.0      -1209303.1      523.4         521.0
+      DXZ           247.6         294.1         523.4       -1207918.9      -338.6
+     DX2Y2          -557.0        -873.5        521.0         -338.6      -1209817.3
