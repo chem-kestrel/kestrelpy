@@ -1,0 +1,116 @@
+{
+  "eigenfunctions": [
+    {
+      "index": 0,
+      "energy": 0.0,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": []
+    },
+    {
+      "index": 1,
+      "energy": 0.0,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": []
+    },
+    {
+      "index": 2,
+      "energy": 14701.8,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": []
+    },
+    {
+      "index": 3,
+      "energy": 14701.8,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": []
+    },
+    {
+      "index": 4,
+      "energy": 18032.9,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": []
+    },
+    {
+      "index": 5,
+      "energy": 18032.9,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": []
+    },
+    {
+      "index": 6,
+      "energy": 20852.5,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": []
+    },
+    {
+      "index": 7,
+      "energy": 20852.5,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": []
+    },
+    {
+      "index": 8,
+      "energy": 21678.6,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": []
+    },
+    {
+      "index": 9,
+      "energy": 21678.6,
+      "spin_multiplicity_projection": {
+        "2": 1.0
+      },
+      "configurations": []
+    }
+  ],
+  "epr": [
+    {
+      "start_index": 0,
+      "final_index": 1,
+      "g_factors": [
+        2.052,
+        2.052,
+        2.263
+      ],
+      "a_values": [
+        12.61,
+        12.613,
+        -550.38
+      ],
+      "dipolar": [
+        269.992,
+        269.992,
+        -539.984
+      ],
+      "orbital": [
+        57.858,
+        57.861,
+        304.844
+      ],
+      "fermi": [
+        -315.24,
+        -315.24,
+        -315.24
+      ]
+    }
+  ],
+  "susceptibilities": []
+}

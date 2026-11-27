@@ -1,0 +1,145 @@
+
+                                         KESTREL
+                                A ligand-field program for
+                              3d transition-metal complexes
+
+                   ----------------------------------------------------
+                   |        Version: 1.0.0, Copyright (c) 2026        |
+                   | Department of Chemistry, University of York (UK) |
+                   ----------------------------------------------------
+
+    References:
+        1.  Nunn, George (2023) Development of a contemporary ligand-field
+            program for 3d transition-metal complexes. PhD thesis,
+            University of York.
+        2.  P. Comba, G. Nunn, F. Scherz and P. H. Walton, Faraday Discuss., 2021, 234, 232-244.
+        3.  S. Mace, B. S. Grace, A. Goodfellow, M. A. Bates, M. A. Halcrow, P. H .Walton,
+            Y. Xu and B. N. Nguyen, Inorg. Chem. Front., 2026, 13 (17), 7301-7315.
+
+
+    Contributors:
+        - George Nunn: Former PhD student in the PHW group.
+        - Ben Grace: PhD student in the PHW group.
+        - Martin Bates: PhD project supervisor.
+        - Paul Walton: PhD project supervisor.
+
+
+                                 *** PARAMETER SPACE ***
+
+=========================================================================================
+                                     INPUT
+=========================================================================================
+MetalAssignment:
+----------------
+Field                Value
+-------------------  ------------------------------------------------------
+d_electrons          9
+racah_b              Fixed(value=0.0)
+racah_c              Fixed(value=0.0)
+spin_orbit_coupling  Fixed(value=830.0)
+kiso                 Varied(value=[0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0])
+
+LigandAssignment:
+-----------------
+Field    Value
+-------  ---------------------------------------------------------------------------------------------------------------------------------
+name     Cl
+esigma   Varied(value=[6000.0, 6500.0, 7000.0, 7500.0, 8000.0])
+epix     Varied(value=[900.0, 1000.0, 1100.0, 1200.0, 1300.0, 1400.0])
+epiy     Link(object_reference='ligand.Cl.epix', link_type=<LinkType.LINEAR: 'linear'>, link_arguments={'gradient': 1.0, 'constant': 0.0})
+edxy     Fixed(value=0.0)
+edx2y2   Fixed(value=0.0)
+eds      Varied(value=[1000.0, 1200.0, 1400.0])
+
+=========================================================================================
+                                    MOLECULE
+=========================================================================================
+Atoms (XYZ format):
+```
+Cu 0.0 0.0 0.0
+Cl 2.0 0.0 0.0
+Cl 0.0 2.0 0.0
+Cl -2.0 0.0 0.0
+Cl 0.0 -2.0 0.0
+```
+
+Parsed Atoms:
+------------------------------------------------------------
+  Index   Element            X            Y            Z
+------------------------------------------------------------
+      0   Cu           0.00000      0.00000      0.00000
+      1   Cl           2.00000      0.00000      0.00000
+      2   Cl           0.00000      2.00000      0.00000
+      3   Cl          -2.00000      0.00000      0.00000
+      4   Cl           0.00000     -2.00000      0.00000
+------------------------------------------------------------
+Metal:
+- index:       0
+  element:     Cu
+  coordinates: (0.0, 0.0, 0.0)
+
+Ligand `Cl`:
+- Assignment 0:
+  - theta:  90.0
+    phi:    0.0
+    psi:    0.0
+    coordinating_atom:
+    - index:       1
+      element:     Cl
+      coordinates: (2.0, 0.0, 0.0)
+    local_x_orientation: None
+    local_frame:
+       0.000,  0.000,  1.000
+      -0.000,  1.000,  0.000
+      -1.000, -0.000,  0.000
+- Assignment 1:
+  - theta:  90.0
+    phi:    90.0
+    psi:    0.0
+    coordinating_atom:
+    - index:       2
+      element:     Cl
+      coordinates: (0.0, 2.0, 0.0)
+    local_x_orientation: None
+    local_frame:
+       0.000, -1.000,  0.000
+       0.000,  0.000,  1.000
+      -1.000,  0.000,  0.000
+- Assignment 2:
+  - theta:  90.0
+    phi:    180.0
+    psi:    0.0
+    coordinating_atom:
+    - index:       3
+      element:     Cl
+      coordinates: (-2.0, 0.0, 0.0)
+    local_x_orientation: None
+    local_frame:
+      -0.000, -0.000, -1.000
+       0.000, -1.000,  0.000
+      -1.000,  0.000,  0.000
+- Assignment 3:
+  - theta:  90.0
+    phi:   -90.0
+    psi:    0.0
+    coordinating_atom:
+    - index:       4
+      element:     Cl
+      coordinates: (0.0, -2.0, 0.0)
+    local_x_orientation: None
+    local_frame:
+       0.000,  1.000,  0.000
+      -0.000,  0.000, -1.000
+      -1.000,  0.000,  0.000
+
+
+=========================================================================================
+                        COMPARISON DATA FOR PARAMETER SPACE
+=========================================================================================
+
+*** EPR Data: ***
+
+Electronic level:     0
+g1:                   2.046
+g2:                   2.046
+g3:                   2.231

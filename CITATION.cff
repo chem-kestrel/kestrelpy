@@ -14,11 +14,11 @@ authors:
   - given-names: Benjamin Samuel
     family-names: Grace
     affiliation: University of York
-  - given-names: Paul Howard
-    family-names: Walton
-    affiliation: University of York
   - given-names: Martin Alexander
     family-names: Bates
+    affiliation: University of York
+  - given-names: Paul Howard
+    family-names: Walton
     affiliation: University of York
 repository-code: 'https://github.com/chem-kestrel/Kestrelpy'
 license: MIT
